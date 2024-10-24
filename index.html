@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countries Explorer</title>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+    <!-- Custom Style -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- Header container -->
+    <header class="header-container">
+        <div class="header-content">
+            <h1 class="title">Where in the world?</h1>
+            <p class="theme-changer"><i class="fa-solid fa-moon"></i> Dark Mode</p>
+        </div>
+    </header>
+
+    <!-- Form container -->
+    <section>
+        <form action="">
+            <input type="search" id="search" class="search-container" placeholder="Search any Country...">
+            <select id="regionFilter">
+                <option value="" hidden>Filter By Region</option>
+                <option value="Africa">Africa</option>
+                <option value="Americas">Americas</option>
+                <option value="Asia">Asia</option>
+                <option value="Europe">Europe</option>
+                <option value="Oceania">Oceania</option>
+                <option value="Antarctic">Antarctic</option>
+            </select>
+        </form>
+    </section>
+
+    <!-- Main container -->
+    <main>
+        <div class="countries-container"></div>
+    </main>
+
+    <!-- Font Awesome CDN -->
+    <script src="https://kit.fontawesome.com/deade8fb49.js" crossorigin="anonymous"></script>
+    <!-- Custom JS -->
+    <script src="./script.js"></script>
+</body>
+</html>
