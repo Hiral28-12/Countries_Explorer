@@ -7,3 +7,5 @@ Key Features:
 📱 **Responsive Design**: Optimized for all devices, ensuring seamless accessibility.  
 
 This project highlights proficiency in DOM manipulation, API integration, and creating interactive user interfaces. It is an excellent demonstration of dynamic web development skills.  
+
+![Screenshot 2024-11-21 132431](https://github.com/user-attachments/assets/7584f539-dde7-473d-b45f-1c32964f43b3)
